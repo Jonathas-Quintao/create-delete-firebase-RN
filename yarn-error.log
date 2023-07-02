@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Jonathas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add expo
+
+PATH: 
+  C:\Program Files\java\zulu17.40.19-ca-jdk17.0.6-win_x64\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Jonathas\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonathas\.dotnet\tools;C:\Users\Jonathas\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\bin;;C:\Users\Jonathas\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Jonathas\AppData\Local\Yarn\Cache\v6\npm-md5-file-3.2.3-f9bceb941eca2214a4c0727f5e700314e770f06f-integrity\node_modules\md5-file\LICENSE.md' -> 'C:\Users\Jonathas\Documents\mobile\CRUDfirebase\CrudFirebase\node_modules\md5-file\LICENSE.md'
+
+npm manifest: 
+  {
+    "name": "crudfirebase",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.18",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.8"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
